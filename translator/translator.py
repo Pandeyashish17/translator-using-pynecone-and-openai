@@ -20,7 +20,6 @@ class State(pc.State):
             return pc.window_alert("Please select a language.")
         
         
-       self.processing = True
        prompt = f"translate '{self.text}' to {self.language}"
        
        
